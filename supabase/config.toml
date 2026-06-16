@@ -1,0 +1,7 @@
+project_id = "gltzxpmjriqvjlpdnslr"
+
+[functions.translate]
+verify_jwt = false
+
+[functions.ba-assistant]
+verify_jwt = false

@@ -1,0 +1,344 @@
+{
+  "common": {
+    "learn_more": "Learn more",
+    "read_more": "Read more",
+    "key_features": "Key Features",
+    "cta_title": "Ready to start?",
+    "cta_subtext": "Submit your request and our team will respond within hours.",
+    "request": "Request Service",
+    "contact": "Contact Us"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "process": "Process",
+    "insights": "Insights",
+    "careers": "Careers",
+    "contact": "Contact",
+    "request": "Request Service"
+  },
+  "scrollStory": {
+    "eyebrow": "Why precision matters",
+    "lines": [
+      "Documents move across borders. Languages change. Legal systems differ.",
+      "A single mistake can delay your entire process.",
+      "Precision is not optional — it is essential."
+    ]
+  },
+    "hero": {
+    "eyebrow": "BA Afghan Notary Public",
+    "headline": "Precision Translation and Legal Certification for Global Use.",
+    "slides": [
+      {
+        "title": "Certified Translation Services",
+        "text": "Accurate and legally compliant translation of documents for international use, ensuring acceptance across borders.",
+        "cta": "Request Translation",
+        "href": "/translation"
+      },
+      {
+        "title": "Notarization & Authentication",
+        "text": "Verification of signatures and certification of documents in accordance with legal standards.",
+        "cta": "Notarize a Document",
+        "href": "/notarization"
+      },
+      {
+        "title": "Legalization & Apostille",
+        "text": "Preparation of documents for official recognition in international jurisdictions.",
+        "cta": "Start Legalization",
+        "href": "/legalization"
+      }
+    ],
+    "subtext": "Delivering certified translation, notarization, and international document legalization with uncompromising accuracy and full compliance.",
+    "tags": ["Certified Translation", "Notarization", "Legalization", "Hague Apostille", "Legal Drafting"],
+    "cta_primary": "Request Translation",
+    "cta_secondary": "Get a Quote",
+    "micro": "Secure • Confidential • Legally Compliant • Internationally Accepted",
+    "scroll": "Scroll",
+    "doc_certificate": "Certificate",
+    "doc_legal": "Legal Form",
+    "doc_translated": "Translated Doc",
+    "interactive": {
+      "hint": "Click any node or document to explore",
+      "services_label": "Services",
+      "docs": {
+        "certificate": {
+          "title": "Certified Documents",
+          "text": "Documents officially verified and certified for legal use in national and international processes.",
+          "services": ["Notarization", "Apostille", "Legalization"]
+        },
+        "legal": {
+          "title": "Legal Documentation",
+          "text": "Preparation and certification of formal legal documents required for official transactions and compliance.",
+          "services": ["Drafting", "Notarization", "Authentication"]
+        },
+        "translated": {
+          "title": "Certified Translation",
+          "text": "Accurate translation of official documents, ensuring linguistic precision and full legal validity.",
+          "services": ["Translation", "Certification", "Legalization"]
+        }
+      },
+      "nodes": {
+        "kabul": { "title": "Kabul — Afghanistan", "text": "Our headquarters and primary processing hub for notarization, certification, and document drafting.", "services": ["Notarization", "Drafting", "Certification"] },
+        "dubai": { "title": "Dubai — UAE", "text": "Frequent destination for business documentation and legal certification across the Gulf region.", "services": ["Translation", "Notarization", "Legalization"] },
+        "london": { "title": "London — UK", "text": "Common destination for academic, immigration, and corporate documentation requiring apostille.", "services": ["Apostille", "Translation", "Authentication"] },
+        "istanbul": { "title": "Istanbul — Türkiye", "text": "Key transit jurisdiction for documents moving between Central Asia, Europe, and the Middle East.", "services": ["Legalization", "Translation"] },
+        "delhi": { "title": "Delhi — India", "text": "Major route for educational, medical, and commercial documents requiring certified translation.", "services": ["Translation", "Notarization"] },
+        "berlin": { "title": "Berlin — Germany", "text": "Frequent destination for academic credentials, employment letters, and corporate filings requiring apostille.", "services": ["Apostille", "Translation", "Legalization"] },
+        "toronto": { "title": "Toronto — Canada", "text": "Common destination for immigration, education, and family-related documents requiring certified translation.", "services": ["Translation", "Notarization", "Apostille"] }
+      }
+    }
+  },
+  "trust": {
+    "items": [
+      { "title": "Ministry Registered", "text": "Officially licensed by the Ministry of Justice and Ministry of Industry and Commerce of Afghanistan." },
+      { "title": "International Reach", "text": "Documents accepted across embassies and jurisdictions worldwide." },
+      { "title": "Fast Processing", "text": "Turnaround times measured in hours, not weeks." },
+      { "title": "Transparent Pricing", "text": "Clear, upfront fees — no hidden charges." }
+    ]
+  },
+  "services": {
+    "eyebrow": "Our Practice",
+    "title": "Professional Services, Internationally Recognized",
+    "intro": "A complete suite of notarial and legal-support services designed for both domestic and international requirements.",
+    "items": [
+      { "title": "Certified Translation", "text": "Professional translation of official documents with certification ensuring legal acceptance." },
+      { "title": "Notarization", "text": "Authentication of signatures and verification of documents in accordance with legal standards." },
+      { "title": "Legalization", "text": "Preparation and certification of documents for recognition by foreign authorities." },
+      { "title": "Hague Apostille", "text": "Facilitating simplified international recognition under applicable conventions." },
+      { "title": "Legal Drafting", "text": "Preparation of clear, structured, and legally sound documents for formal use." },
+      { "title": "Advisory", "text": "Guidance on cross-border documentation strategy and compliance." }
+    ]
+  },
+  "featured": {
+    "eyebrow": "When You Need a Notary",
+    "title": "Notarial Services for a Borderless World.",
+    "intro": "Notarial services ensure your documents are legally valid, authenticated, and recognized — both locally and across international jurisdictions.",
+    "faqs": [
+      { "q": "International document submission", "a": "Visas, residency applications, and embassy filings frequently require notarized originals or certified copies." },
+      { "q": "Cross-border business contracts", "a": "Joint ventures, distribution agreements, and corporate filings need authenticated signatures to be enforceable abroad." },
+      { "q": "Property and inheritance matters", "a": "Powers of attorney, deeds, and succession declarations must be properly notarized to be honored overseas." },
+      { "q": "Education and employment", "a": "Diplomas, transcripts, and employment letters used internationally require legalization or apostille." }
+    ]
+  },
+  "process": {
+    "eyebrow": "How It Works",
+    "title": "A Clear, Four-Step Process",
+    "steps": [
+      { "title": "Submit Documents", "text": "Share your documents securely online or in person at our office." },
+      { "title": "Review & Quotation", "text": "Our team reviews your case and provides transparent pricing within hours." },
+      { "title": "Processing", "text": "Notarization, legalization, and translation handled by certified specialists." },
+      { "title": "Delivery", "text": "Receive certified documents at our office, by courier, or via secure download." }
+    ]
+  },
+  "stats": {
+    "eyebrow": "By the Numbers",
+    "title": "Trusted by clients across continents.",
+    "items": [
+      { "value": 1000, "suffix": "+", "label": "Documents Processed" },
+      { "value": 30, "suffix": "+", "label": "Countries Served" },
+      { "value": 10, "suffix": "+", "label": "Years of Combined Experience" },
+      { "value": 24, "suffix": "h", "label": "Average Turnaround" }
+    ]
+  },
+  "cta": {
+    "title": "Prepare Your Documents for Global Acceptance",
+    "subtext": "Work with a trusted partner to ensure your documents are accurate, certified, and internationally recognized.",
+    "button": "Start Your Request"
+  },
+  "footer": {
+    "tagline": "Legal certification, reimagined for a connected world.",
+    "columns": {
+      "services": { "title": "Services", "links": ["Translation", "Notarization", "Legalization", "Apostille", "Legal Drafting"] },
+      "company": { "title": "Company", "links": ["About", "Process", "Insights", "Contact"] },
+      "legal": { "title": "Legal", "links": ["Privacy", "Terms", "Compliance"] }
+    },
+    "rights": "All rights reserved."
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "About BA Afghan Notary Public",
+    "intro": "BA Afghan Notary Public is a professionally operated legal documentation and certification service provider based in Afghanistan, supporting individuals, businesses, and institutions in preparing documents for both domestic and international use. In an increasingly interconnected global environment, the movement of documents across jurisdictions requires precision, compliance, and trust. Our role is to ensure that every document we process meets the legal, linguistic, and procedural requirements necessary for acceptance by authorities, institutions, and organizations worldwide. We serve as a reliable partner for clients navigating complex documentation processes — simplifying requirements, minimizing risk, and ensuring successful outcomes.",
+    "mission_title": "Mission",
+    "mission": "Our mission is to deliver precise, reliable, and internationally compliant legal documentation services that enable our clients to operate confidently across borders. We aim to remove uncertainty from the documentation process by ensuring that every translation, certification, and legal procedure is handled with accuracy, professionalism, and full adherence to applicable standards.",
+    "vision_title": "Vision",
+    "vision": "Our vision is to become a leading provider of legal documentation services in the region, recognized for excellence, trust, and adherence to international standards. We strive to build a reputation defined by consistency, transparency, and the ability to support clients in increasingly complex global environments.",
+    "approach_title": "Our Approach",
+    "approach": "Our work is guided by a dual focus on linguistic accuracy and legal validity. We recognize that effective documentation requires more than correct language — it requires alignment with legal frameworks, institutional expectations, and procedural requirements. To achieve this we apply structured workflows for every document, use standardized terminology across legal and technical fields, ensure consistency between source and translated content, and conduct multi-stage review and verification processes.",
+    "values_title": "Core Values",
+    "values": [
+      "Accuracy and Precision — every document processed with attention to detail in language, format, and legal structure",
+      "Integrity — transparency and professionalism in all interactions, ensuring trust and accountability",
+      "Confidentiality — client data and documents handled with strict confidentiality protocols and secure systems",
+      "Efficiency — timely services without compromising quality, ensuring deadlines are consistently met",
+      "Continuous Improvement — refining processes, tools, and expertise to align with evolving international standards"
+    ],
+    "closing": "We are committed to simplifying complex legal documentation procedures while maintaining the highest standards of quality, reliability, and international compliance."
+  },
+  "servicesPage": {
+    "eyebrow": "Our Services",
+    "title": "A Complete Portfolio of Legal Documentation Services",
+    "intro": "We provide a comprehensive range of legal documentation services designed to support individuals and organizations engaged in cross-border activities. Every document is accurate in language, compliant with legal standards, properly formatted and certified, and accepted by relevant authorities.",
+    "items": [
+      { "title": "Certified Translation", "text": "Professional translation of official documents with certification ensuring legal acceptance.", "slug": "translation" },
+      { "title": "Notarization", "text": "Authentication of signatures and verification of documents in accordance with legal standards.", "slug": "notarization" },
+      { "title": "Legalization", "text": "Preparation and certification of documents for recognition by foreign authorities.", "slug": "legalization" },
+      { "title": "Apostille", "text": "Facilitating simplified international recognition under applicable conventions.", "slug": "apostille" },
+      { "title": "Legal Drafting", "text": "Preparation of clear, structured, and legally sound documents for formal use.", "slug": "legal-drafting" }
+    ]
+  },
+  "translation": {
+    "eyebrow": "Service",
+    "title": "Certified Translation Services",
+    "intro": "Translation is the cornerstone of any international documentation process — a legal and technical responsibility, not merely a linguistic task.",
+    "sections": [
+      { "title": "Our Approach", "text": "Our certified translation services ensure that every document maintains its original meaning, legal validity, and structural integrity when presented in another language. We work with highly skilled linguists and subject-matter experts to deliver translations that meet the strict requirements of embassies, courts, universities, and government institutions worldwide." },
+      { "title": "Document Types", "text": "Legal contracts • Academic records • Birth and marriage certificates • Medical documents • Official correspondence • Corporate filings • Court rulings and affidavits." },
+      { "title": "Quality Assurance Process", "text": "Every document undergoes initial translation by a qualified linguist, independent review and editing, terminology verification, and final certification — ensuring original meaning, legal integrity, and professional formatting are preserved." },
+      { "title": "Our Commitment", "text": "We guarantee precision, confidentiality, and acceptance by relevant authorities. Each translation is accompanied by certification confirming its accuracy and completeness." }
+    ],
+    "features": [
+      "Certified translations accepted by official institutions",
+      "Expertise in legal, academic, medical, and technical fields",
+      "Accurate terminology management and consistency",
+      "Full preservation of formatting, layout, and document structure",
+      "Multi-stage quality assurance and review process",
+      "Fast turnaround without compromising quality"
+    ]
+  },
+  "notarization": {
+    "eyebrow": "Service",
+    "title": "Notarization & Document Authentication",
+    "intro": "A critical legal process that validates the authenticity of documents and the identity of signatories — ensuring formal recognition by relevant authorities.",
+    "sections": [
+      { "title": "What We Provide", "text": "Verification of identities • Certification of signatures • Authentication of official documents. This step adds a layer of legal credibility, confirming that the document is genuine and has been executed properly." },
+      { "title": "Scope", "text": "Legal documents, affidavits, agreements, declarations, powers of attorney, and corporate instruments — all conducted in accordance with applicable legal frameworks." },
+      { "title": "Assurance", "text": "Our approach ensures that your documents meet institutional and governmental requirements without complications, and are accepted in formal processes both locally and abroad." }
+    ],
+    "features": [
+      "Identity verification and signature certification",
+      "Authentication of official documents",
+      "Compliance with applicable legal frameworks",
+      "Acceptance by institutional and governmental bodies",
+      "Confidential handling at every stage"
+    ]
+  },
+  "legalization": {
+    "eyebrow": "Service",
+    "title": "Document Legalization",
+    "intro": "Comprehensive support for documents intended for use in foreign jurisdictions — ensuring full compliance with the legal requirements of the destination country.",
+    "sections": [
+      { "title": "Process", "text": "We coordinate with relevant institutions and consular authorities to prepare and certify your documents for international use, managing the procedural complexities so you can focus on your objectives." },
+      { "title": "What This Covers", "text": "Foreign ministry attestation • Embassy and consular legalization • Sector-specific certifications required by destination authorities." },
+      { "title": "Why It Matters", "text": "Proper legalization eliminates the risk of rejection abroad and ensures your documents are accepted by foreign courts, universities, employers, and government bodies." }
+    ],
+    "features": [
+      "Coordination with foreign ministries and consulates",
+      "End-to-end procedural management",
+      "Compliance with destination-country requirements",
+      "Reduced risk of rejection or delay",
+      "Transparent timelines and pricing"
+    ]
+  },
+  "apostille": {
+    "eyebrow": "Service",
+    "title": "Hague Apostille Services",
+    "intro": "Facilitating apostille certification under the Hague Convention, enabling your documents to be recognized across all member states without further legalization.",
+    "sections": [
+      { "title": "What is an Apostille?", "text": "An apostille is a simplified form of international authentication issued under the 1961 Hague Convention. Once apostilled, a document is recognized by all participating countries without additional consular legalization." },
+      { "title": "Our Service", "text": "We prepare, verify, and coordinate apostille certification for your documents — handling all procedural steps and ensuring full compliance with convention requirements." },
+      { "title": "Benefits", "text": "Faster international acceptance, reduced administrative overhead, and a single certification recognized across the Hague member states." }
+    ],
+    "features": [
+      "Coordinated apostille handling",
+      "Compliance with Hague Convention standards",
+      "Recognition across all member states",
+      "Single-step international authentication",
+      "Faster turnaround than traditional legalization"
+    ]
+  },
+  "legalDrafting": {
+    "eyebrow": "Service",
+    "title": "Legal Drafting",
+    "intro": "Preparation of clear, structured, and legally sound documents — drafted by experienced specialists for both domestic and international use.",
+    "sections": [
+      { "title": "What We Draft", "text": "Contracts and agreements • Powers of attorney • Affidavits and declarations • Corporate resolutions and instruments • Letters of authorization." },
+      { "title": "Our Approach", "text": "Each document is drafted with precise legal language, structured for clarity, and reviewed for compliance with the relevant jurisdiction. We ensure your intent is captured accurately and is enforceable." },
+      { "title": "Multi-Jurisdiction Awareness", "text": "We draft documents with cross-border use in mind, ensuring they integrate seamlessly with subsequent notarization, legalization, or apostille requirements." }
+    ],
+    "features": [
+      "Clear, structured legal language",
+      "Compliance with relevant jurisdictions",
+      "Cross-border drafting awareness",
+      "Integrated with notarization and legalization workflows",
+      "Confidential and tailored to your needs"
+    ]
+  },
+  "processPage": {
+    "eyebrow": "Process",
+    "title": "Simple. Transparent. Reliable.",
+    "intro": "Our workflow is designed to ensure clarity, efficiency, and consistent quality at every stage — from secure submission to final delivery.",
+    "steps": [
+      { "title": "Secure Submission", "text": "Clients may submit documents through secure online channels or in person. All submissions are handled with strict confidentiality protocols, ensuring data protection from the initial stage." },
+      { "title": "Evaluation & Quotation", "text": "Our team carefully reviews each document to determine requirements, complexity, and applicable procedures. We provide clear pricing, defined timelines, and a service breakdown — typically within a few hours." },
+      { "title": "Processing & Quality Assurance", "text": "Documents undergo structured processing including translation (if required), verification, and certification. Each step is supported by multi-stage quality assurance to ensure accuracy and full compliance." },
+      { "title": "Final Delivery", "text": "Completed documents are delivered securely — digitally, by courier, or in person. We ensure all documents are properly formatted and ready for official use." }
+    ]
+  },
+  "insightsPage": {
+    "eyebrow": "Insights",
+    "title": "Insights and Legal Guidance",
+    "intro": "Our insights section provides practical guidance on translation, notarization, and international document recognition. These resources are designed to help individuals and organizations understand requirements, avoid common errors, and navigate complex processes with confidence.",
+    "articles": [
+      { "tag": "Translation", "title": "When Do You Need a Certified Translation?", "excerpt": "Understanding which documents require certification — and which institutions accept which formats." },
+      { "tag": "Notarization", "title": "Understanding Notarization Requirements", "excerpt": "A clear breakdown of identity verification, signature certification, and document authentication standards." },
+      { "tag": "Apostille", "title": "Legalizing Documents for International Use", "excerpt": "Step-by-step guidance on apostille and consular legalization for documents destined for foreign jurisdictions." },
+      { "tag": "Business", "title": "Cross-Border Contracts: What to Watch For", "excerpt": "Key considerations when drafting and certifying contracts for international enforcement." },
+      { "tag": "Education", "title": "Preparing Academic Documents for Study Abroad", "excerpt": "How to handle transcripts, diplomas, and supporting documents for international admissions." },
+      { "tag": "Compliance", "title": "Confidentiality in Document Handling", "excerpt": "How professional notarial services protect your sensitive information at every stage." }
+    ]
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "title": "Contact Us",
+    "intro": "Our team is available to assist with your documentation needs — reach out for a quote, a consultation, or general inquiries.",
+    "address_label": "Address",
+    "address": "Street No. 8, Sherpur, Kabul, Afghanistan",
+    "phone_label": "Phone",
+    "phone": "+93 786 06 01 01",
+    "email_label": "Email",
+    "email": "info@afghannotary.com",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "message": "Message",
+      "submit": "Send Message",
+      "sending": "Sending..."
+    },
+    "success": "Thank you — we'll be in touch shortly."
+  },
+  "requestPage": {
+    "eyebrow": "Request a Service",
+    "title": "Request a Service",
+    "intro": "Submit your request and our team will respond with a detailed quotation and timeline within hours.",
+    "services": [
+      { "value": "translation", "label": "Certified Translation" },
+      { "value": "notarization", "label": "Notarization" },
+      { "value": "legalization", "label": "Legalization" },
+      { "value": "apostille", "label": "Hague Apostille" },
+      { "value": "legal-drafting", "label": "Legal Drafting" },
+      { "value": "other", "label": "Other / Multiple" }
+    ],
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone (optional)",
+      "service": "Service Type",
+      "details": "Document Details",
+      "upload_note": "Secure document upload will be available after the quote is confirmed.",
+      "submit": "Submit Request",
+      "sending": "Submitting..."
+    },
+    "success": "Request received — our team will respond within hours."
+  }
+}

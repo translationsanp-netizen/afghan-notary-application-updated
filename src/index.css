@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* BA Afghan Notary Public — Editorial design system
+   Brand: #01B9EA (primary), #183852 (secondary), #F7FBFD (light), #FFFFFF
+   All colors must be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 209 56% 21%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 209 56% 21%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 209 56% 21%;
+
+    /* Brand */
+    --primary: 193 99% 46%;            /* #01B9EA */
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 193 100% 65%;
+
+    --secondary: 209 56% 21%;          /* #183852 */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 200 50% 97%;              /* #F7FBFD */
+    --muted-foreground: 209 14% 42%;   /* #5B6B7A subtext gray */
+
+    --accent: 200 50% 97%;
+    --accent-foreground: 209 56% 21%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 30% 90%;
+    --input: 200 30% 90%;
+    --ring: 193 99% 46%;
+
+    --radius: 0.25rem;
+
+    /* Editorial tokens */
+    --surface-light: 200 50% 97%;
+    --ink: 209 56% 21%;
+    --ink-soft: 209 30% 35%;
+
+    --gradient-hero: linear-gradient(135deg, hsl(193 99% 46%) 0%, hsl(200 80% 35%) 45%, hsl(209 56% 21%) 100%);
+    --gradient-soft: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(200 50% 97%) 100%);
+    --gradient-radial: radial-gradient(circle at 30% 30%, hsl(193 100% 65% / 0.35), transparent 60%);
+
+    --shadow-soft: 0 10px 40px -20px hsl(209 56% 21% / 0.25);
+    --shadow-lift: 0 30px 60px -30px hsl(209 56% 21% / 0.35);
+    --shadow-glow: 0 0 80px hsl(193 99% 46% / 0.35);
+
+    --transition-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+    --transition-editorial: cubic-bezier(0.65, 0, 0.35, 1);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 209 56% 8%;
+    --foreground: 0 0% 100%;
+    --card: 209 56% 10%;
+    --card-foreground: 0 0% 100%;
+    --popover: 209 56% 10%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 193 99% 46%;
+    --primary-foreground: 209 56% 8%;
+    --secondary: 209 40% 18%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 209 40% 14%;
+    --muted-foreground: 200 20% 70%;
+    --accent: 209 40% 18%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 40%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 209 40% 18%;
+    --input: 209 40% 18%;
+    --ring: 193 99% 46%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+  ::selection {
+    background: hsl(var(--primary) / 0.25);
+    color: hsl(var(--secondary));
+  }
+}
+
+@layer components {
+  .container-editorial {
+    @apply mx-auto w-full max-w-[1400px] px-6 md:px-10 lg:px-16;
+  }
+
+  .display-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.02;
+  }
+
+  .glass-card {
+    background: hsl(0 0% 100% / 0.65);
+    backdrop-filter: blur(18px) saturate(140%);
+    -webkit-backdrop-filter: blur(18px) saturate(140%);
+    border: 1px solid hsl(0 0% 100% / 0.6);
+    box-shadow: 0 4px 12px hsl(209 56% 21% / 0.06);
+  }
+
+  [dir="rtl"] .display-serif,
+  [dir="rtl"] body {
+    font-family: 'Noto Naskh Arabic', 'Playfair Display', Tahoma, serif;
+  }
+
+  .eyebrow {
+    @apply text-xs uppercase tracking-[0.25em] text-muted-foreground font-medium;
+  }
+
+  .story-link {
+    @apply relative inline-block after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-px after:bottom-0 after:left-0 after:bg-current after:origin-bottom-right after:transition-transform after:duration-500 hover:after:scale-x-100 hover:after:origin-bottom-left;
+  }
+
+  .gradient-hero-bg {
+    background: var(--gradient-hero);
+    background-size: 200% 200%;
+  }
+
+  .marquee-mask {
+    mask-image: linear-gradient(90deg, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(90deg, transparent, black 10%, black 90%, transparent);
+  }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .text-pretty { text-wrap: pretty; }
+}
+
+/* Rich text biography rendered from admin TipTap editor */
+.bio-rich-content p { margin: 0 0 1.1em; break-inside: avoid; }
+.bio-rich-content p:last-child { margin-bottom: 0; }
+.bio-rich-content h2 { font-family: var(--font-display, serif); font-size: 1.5rem; color: hsl(var(--secondary)); margin: 1.4em 0 0.6em; line-height: 1.25; break-inside: avoid; }
+.bio-rich-content h3 { font-family: var(--font-display, serif); font-size: 1.2rem; color: hsl(var(--secondary)); margin: 1.2em 0 0.5em; break-inside: avoid; }
+.bio-rich-content strong { color: hsl(var(--secondary)); font-weight: 600; }
+.bio-rich-content em { font-style: italic; }
+.bio-rich-content a { color: hsl(var(--primary)); text-decoration: underline; text-underline-offset: 3px; }
+.bio-rich-content ul, .bio-rich-content ol { margin: 0 0 1.1em 1.25rem; padding: 0; }
+.bio-rich-content ul { list-style: disc; }
+.bio-rich-content ol { list-style: decimal; }
+.bio-rich-content li { margin: 0.3em 0; }
+.bio-rich-content blockquote { border-left: 3px solid hsl(var(--primary)); padding: 0.2em 0 0.2em 1rem; margin: 1em 0; color: hsl(var(--secondary)); font-style: italic; break-inside: avoid; }
+.bio-rich-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 1em 0; break-inside: avoid; }
