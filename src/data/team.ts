@@ -1,8 +1,5 @@
-import barigul from "@/assets/team/barigul-alokozay.jpeg";
 import noorul from "@/assets/team/noorul-huda.jpeg";
 import sebghatullah from "@/assets/team/sebghatullah-arife.png";
-import ezatullah from "@/assets/team/ezatullah-alokozay.png";
-
 export type TeamCategory = "leadership" | "legal" | "translation" | "technology";
 
 export interface TeamMember {
