@@ -47,33 +47,6 @@ export const team: TeamMember[] = [
     ],
   },
   {
-    slug: "mohammad-khalid-massoudi",
-    name: "Mohammad Khalid Massoudi",
-    role: "Senior Director, Legal Affairs & Strategic Advisory",
-    unit: "Legal Affairs",
-    category: "legal",
-    image: null,
-    initials: "MK",
-    short:
-      "Senior Director at Afghan Notary Public, bringing over a decade of experience in legal advisory, international development, and justice sector programs.",
-    intro:
-      "Providing senior-level oversight across legal operations, institutional partnerships, and complex advisory engagements at Afghan Notary Public.",
-    bio: [
-      "A seasoned legal professional with over a decade of experience, Mohammad Khalid Massoudi brings deep expertise in legal advisory, justice sector development, and regulatory frameworks. His professional background spans private legal practice, international development programs, and high-level consultancy roles, positioning him as a key figure in navigating complex legal and institutional environments.",
-      "In parallel with his role at ANP, he serves as Attorney and Legal Advisor at Masnad Law Firm and has held advisory positions with Afghanistan Lawyers International. His experience includes consultancy roles with the United Nations Development Programme (UNDP) under the Afghanistan Access to Justice Project, where he contributed to both midterm and final evaluations of program outcomes. He has also worked with the Justice Sector Support Program (JSSP), a U.S. Department of State initiative, supporting justice sector reform and legal system strengthening.",
-      "His early career includes experience within the Legislative Department of the Afghanistan National Assembly, providing him with strong institutional insight into legislative and governance processes.",
-      "He is an active contributor to internationally recognized initiatives, including the World Justice Project's Rule of Law Index and the World Bank's Doing Business Report, reflecting sustained engagement in global legal benchmarking and policy environments.",
-      "At ANP, he plays a central role in shaping legal strategy, ensuring compliance across multi-jurisdictional documentation, and strengthening the organization's alignment with international legal and operational standards. His leadership supports the delivery of high-integrity, legally sound, and globally compliant services to government entities, international organizations, and private sector clients.",
-    ],
-    expertise: [
-      "Legal Strategy & Advisory",
-      "Justice Sector Development",
-      "International Development Programs",
-      "Policy & Governance",
-      "Multi-Jurisdictional Compliance",
-    ],
-  },
-  {
     slug: "sebghatullah-arife",
     name: "Sebghatullah Arife",
     role: "Director, Translation Management Unit (TMU) & Language Technology Strategy",
